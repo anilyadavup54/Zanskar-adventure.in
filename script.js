@@ -24,4 +24,20 @@ document
         setInterval(() => plusSlides(1), 5000);
         // Change slides every 5 seconds
     });
+
+    function myFunction(){
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more1");
+        var btnText = document.getElementById("myBtn");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
     

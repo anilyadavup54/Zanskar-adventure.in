@@ -10,6 +10,9 @@ body{
     border-radius: 5px;
     margin-top:5px ;
 }
+#more {
+  display: none;
+}
 .bg-img{
     content-visibility: 20%;
     background-image: -moz-linear-gradient(2);
