@@ -1,0 +1,11 @@
+{
+  "name": "zanskar-adventure.in",
+  "version": "1.0.0",
+  "description": "Everyone Must Trek. They wanted to do this by bringing out information about treks, and by setting the right spirit of trekking in India.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

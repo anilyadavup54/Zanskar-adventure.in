@@ -168,7 +168,7 @@ input {
 textarea {
   overflow: auto;
 }
-
+.f-flex
 #container1{
   border: solid 3px #474544;
   max-width: 768px;
@@ -347,15 +347,26 @@ textarea {
   }
 }
 .f-flex{
-  padding: 0%;
-  background-color: rgb(160, 148, 148);
-}
-.justify-content-end{
-  text-align:justify;
-}
-.nav-item1{
+  padding-left: 20px;
+  align-items: center;
+  height: 200px;
   display: flex;
-    
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(24, 21, 21);
+}
+.left-side{
+  padding-right: 62rem;
+  text-align: left;
+}
+.right-side{
+  text-align:right;
+}
+.right-side,.left-side{
+ color: #fff;
+}
+.nav-link{
+  color: #F2F3EB;
 }
 .faqs-section{
   padding-top: 9%;
